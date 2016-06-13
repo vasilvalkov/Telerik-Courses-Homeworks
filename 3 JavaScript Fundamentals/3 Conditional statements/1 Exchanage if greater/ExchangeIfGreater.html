@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Exchange if greater</title>
+	<style>
+		div {
+			width: 204px;
+			height:25px;
+			color: white;
+			background-color:grey;
+			font-size: 20px;
+		}
+		input {
+			width: 80px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}		
+	</style>	
+	<script src="ExchangeIfGreater.js"></script>
+</head>
+<body>
+	<p>Type your numbers:</p>
+	<label for="entryA">a: </label>
+	<input type="number" id="entryA" placeholder="Type a value" onchange="nChange()"/>
+	<label for="entryB">b: </label>
+	<input type="number" id="entryB" placeholder="Type b value" onchange="nChange()"/>
+	<span>Result:</span>
+	<div id="answer"></div>
+
+</body>
+</html>

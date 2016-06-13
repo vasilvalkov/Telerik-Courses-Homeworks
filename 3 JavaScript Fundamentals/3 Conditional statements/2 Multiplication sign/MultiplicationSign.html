@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Multiplication sign</title>
+	<style>
+		div {
+			width: 50px;
+			height:50px;
+			color: white;
+			background-color:grey;
+			font-size: 40px;
+			font-weight: bold;
+			vertical-align: middle;
+			text-align: center;
+		}
+		input {
+			width: 100px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}		
+	</style>	
+	<script src="MultiplicationSign.js"></script>
+</head>
+<body>
+	<p>Type your numbers ans click the text:</p>
+	<label for="entryA">a: </label>
+	<input type="number" id="entryA" placeholder="Type a value"/>
+	<label for="entryB">b: </label>
+	<input type="number" id="entryB" placeholder="Type b value"/>
+	<label for="entryC">c: </label>
+	<input type="number" id="entryC" placeholder="Type c value"/>
+	<a href="#" onclick="nChange()">The sign of the multiplication is:</a>
+	<div id="answer"></div>
+
+</body>
+</html>

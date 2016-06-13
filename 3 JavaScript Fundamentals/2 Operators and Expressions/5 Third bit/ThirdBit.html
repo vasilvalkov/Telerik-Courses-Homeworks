@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Third bit</title>
+	<style>
+		div {
+			width: 404px;
+			height:25px;
+			color: white;
+			background-color:grey;
+			font-size: 20px;
+		}
+		input {
+			width: 200px;
+			display: block;
+		}
+		p {
+			width: 200px;
+		}
+		#hexRep {
+			text-align: justify;
+		}
+	</style>	
+	<script src="ThirdBit.js"></script>
+</head>
+<body>
+	<p>Type an integer to see if its third bit (right-to-left) is 0 or 1:</p>
+	<input type="number" id="entry" placeholder="Type integer" onchange="nChange()"/>
+	<div id="binRep"></div>
+	<div id="answer"></div>
+
+</body>
+</html>
