@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    padding: 0;
+    margin: 0;
+
+    section {
+        position: relative;
+
+        img {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            display: none;
+        }
+    }
+
+    header {
+        padding: 10px;
+        display: block;
+        height: 100px;
+
+        nav {
+            position: relative;
+
+            input {
+                display: none;
+            }
+
+            #navImg2:checked #bigImg1 {
+                display: block;
+            }
+
+            #navImg2:checked #bigImg2 {
+                display: block;
+            }
+
+            #navImg3:checked #bigImg3 {
+                display: block;
+            }
+
+            #navImg4:checked #bigImg4 {
+                display: block;
+            }
+
+            #navImg5:checked #bigImg5 {
+                display: block;
+            }
+
+            #navImg6:checked #bigImg6 {
+                display: block;
+            }
+
+            label {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                float: left;
+                margin-right: 10px;
+            }
+
+            #lbl1 {
+                background-image: url('img1.png');
+            }
+
+            #lbl2 {
+                background-image: url('Pic2.png');
+            }
+
+            #lbl3 {
+                background-image: url('pic3.png');
+            }
+
+            #lbl4 {
+                background-image: url('pic4.png');
+            }
+
+            #lbl5 {
+                background-image: url('pic5.png');
+            }
+
+            #lbl6 {
+                background-image: url('pic6.png');
+            }
+        }
+    }
+}

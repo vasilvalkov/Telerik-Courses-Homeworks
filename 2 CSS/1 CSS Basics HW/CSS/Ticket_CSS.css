@@ -1,0 +1,67 @@
+﻿table {
+   background-color: #595959;
+   font: normal 11px "Arial", cursive;
+   height: auto;
+   padding-top: 5px;
+   font-weight: bold;
+   line-height: 200%;
+}
+th {
+   color: darkgrey;
+   font-size: 1.5em;
+   font-weight: normal;
+   text-align: left;
+   position: relative;
+   bottom: 5px;
+   line-height: 200%;
+   white-space: nowrap;
+}
+#first-col {
+   width: 110px;
+}
+#second-col {
+   width: 250px;
+}
+.header {
+   color: white;
+   font-style: italic;
+   position: relative;
+   text-wrap: none;
+   column-width:auto;
+   vertical-align: initial;
+   white-space: nowrap;
+}
+.header:after {
+   content: ":";
+}
+.info {
+   color: palegoldenrod;
+}
+.activity {
+   color: darkgrey;
+}
+#status {
+   color: chocolate;
+}
+#name:before {
+   font-size: 3em;
+   color: mediumseagreen;
+   content: "\2022";
+   position: relative;
+   vertical-align: text-bottom;
+   margin-right: 2px;
+}
+#name:after {
+   color: red;
+   content: "No Acvtive Support";
+   vertical-align: super;
+}
+a {
+   text-decoration: none;
+}
+#name {
+    line-height: 125%;
+}
+#name-header {
+    line-height: 125%;
+}
