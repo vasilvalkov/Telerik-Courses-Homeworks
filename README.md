@@ -1,1 +1,0 @@
-# Telerik-online-courses-homeworks
