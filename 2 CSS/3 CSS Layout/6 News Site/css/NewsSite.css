@@ -1,0 +1,59 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,Arial,Helvetica;
+    font-size: 12px;
+    font-weight:normal;
+}
+#wrapper {
+    width: 610px;
+    background-color: #1e3741;
+}
+nav {
+    position: relative;
+    height: 35px;
+}
+input {
+    display: none;
+    margin: 1px;
+}
+label {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.50);
+    background-color: #4b5f67;
+    padding: 10px;
+    font-size: 11px;
+    margin-right: 1px;
+    float: left;
+}
+input:checked+label{
+    background-color: #1e3741;
+    color: whitesmoke;
+}
+label:hover {
+    text-decoration:underline;
+}
+aside {
+    box-sizing: border-box;
+    float: left;
+    width: 39%;
+}
+section {
+    box-sizing: border-box;
+    width: 40%;
+    float: left;}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.70);
+}
+li:hover {
+    background-color: #00968c;
+    color: whitesmoke;
+}

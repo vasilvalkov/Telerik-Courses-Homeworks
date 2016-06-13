@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Windows Calculator</title>
+</head>
+<link href="css/WinCalc.css" rel="stylesheet" />
+<body>
+    <main>
+        <header><img src="images/top.png" alt="Header" /></header>
+        <section id="main">
+            <nav>
+                <ul>
+                	<li>View</li>
+                	<li>Edit</li>
+                	<li>Help</li>
+                </ul>
+            </nav>
+            <section id="result">
+                <input type="text" name="result" id="tb-result" value="8854455"/>
+            </section>
+            <section id="data-type-bits">
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="static bits">63</div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="static bits">47</div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="static bits">32</div>
+                <div class="bits">0000</div>
+                <div class="bits">0000</div>
+                <div class="bits">1000</div>
+                <div class="bits">0111</div>
+                <div class="bits">0001</div>
+                <div class="bits">1011</div>
+                <div class="bits">1011</div>
+                <div class="bits">0111</div>
+                <div class="static bits">31</div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="static bits">15</div>
+                <div class="bits"></div>
+                <div class="bits"></div>
+                <div class="static bits">0</div>
+            </section>
+            <section id="mode">
+                <div>
+                    <input type="radio" name="mode" id="hex" />
+                    <label for="hex">Hex</label>
+                </div>
+                <div>
+                    <input type="radio" name="mode" id="dec" checked />
+                    <label for="dec">Dec</label>
+                </div>
+                <div>
+                    <input type="radio" name="mode" id="oct" />
+                    <label for="oct">Oct</label>
+                </div>
+                <div>
+                    <input type="radio" name="mode" id="bin" />
+                    <label for="bin">Bin</label> 
+                </div>
+            </section>
+            <section id="data-type-select">
+                <div>
+                    <input type="radio" name="datatype" id="qword" checked />
+                    <label for="qword">Qword</label>
+                </div>
+                <div>
+                    <input type="radio" name="datatype" id="dword" />
+                    <label for="dword">Dword</label>
+                </div>
+                <div>
+                    <input type="radio" name="datatype" id="word" />
+                    <label for="word">Word</label>
+                </div>
+                <div>
+                    <input type="radio" name="datatype" id="byte" />
+                    <label for="byte">Byte</label>
+                </div>
+            </section>
+            <section id="buttons">
+                <button type="button" class="other" value="empty" id="empty"></button>
+                <button type="button" class="operator" value="Mod">Mod</button>
+                <button type="button" class="letter" value="A">A</button>
+                <button type="button" class="memory" value="MC">MC</button>
+                <button type="button" class="memory" value="MR">MR</button>
+                <button type="button" class="memory" value="MS">MS</button>
+                <button type="button" class="memory" value="Mplus">M+</button>
+                <button type="button" class="memory" value="Mminus">M-</button>
+                <button type="button" class="operator" value="(">(</button>
+                <button type="button" class="operator" value=")">)</button>
+                <button type="button" class="letter" value="B">B</button>
+                <button type="button" class="operator" value="back" id="arrow">&larr;</button>
+                <button type="button" class="operator" value="CE">CE</button>
+                <button type="button" class="operator" value="clear">C</button>
+                <button type="button" class="operators" value="plus-minus">&#177;</button>
+                <button type="button" class="other" value="square root">&radic;</button>
+                <button type="button" class="operator" value="RoL">RoL</button>
+                <button type="button" class="operator" value="RoR">RoR</button>
+                <button type="button" class="letter" value="C">C</button>
+                <button type="button" class="number" value="7">7</button>
+                <button type="button" class="number" value="8">8</button>
+                <button type="button" class="number" value="9">9</button>
+                <button type="button" class="operators" value="divide">/</button>
+                <button type="button" class="other" value="percent">%</button>
+                <button type="button" class="operator" value="Or">Or</button>
+                <button type="button" class="operator" value="Xor">Xor</button>
+                <button type="button" class="letter" value="D">D</button>
+                <button type="button" class="number" value="4">4</button>
+                <button type="button" class="number" value="5">5</button>
+                <button type="button" class="number" value="6">6</button>
+                <button type="button" class="operators" value="multiple">*</button>
+                <button type="button" class="other" value="half">1/<span>x</span></button>
+                <button type="button" class="operator" value="Lsh">Lsh</button>
+                <button type="button" class="operator" value="Rsh">Rsh</button>
+                <button type="button" class="letter" value="E">E</button>
+                <button type="button" class="number" value="1">1</button>
+                <button type="button" class="number" value="2">2</button>
+                <button type="button" class="number" value="3">3</button>
+                <button type="button" class="operators" value="minus">-</button>
+                <button type="button" class="operator" id="equals" value="equals">=</button>
+                <button type="button" class="operator" value="Not" id="not">Not</button>
+                <button type="button" class="operator" value="And">And</button>
+                <button type="button" class="letter" value="F">F</button>
+                <button type="button" class="number" id="zero" value="0">0</button>
+                <button type="button" class="other" value="point">.</button>
+                <button type="button" class="operators" value="plus">+</button>
+            </section>
+        </section>
+        <footer></footer>
+    </main>
+</body>
+</html>

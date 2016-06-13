@@ -1,0 +1,87 @@
+﻿body {
+    border: 3px solid grey;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    font-family: Corbel;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin: 0;
+}
+header {
+    position: relative;
+    border-bottom: 3px solid grey;
+    margin: 0 15px 10px 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+aside {
+    float: right;
+    width: 29%;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+aside p {
+    text-align: center;
+    font-size: 28px;
+}
+aside input {
+    display: inline-block;
+    margin-top: 15px;
+    width: 90%;
+}
+#main {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    border: 3px solid grey;    
+}
+.clearfix {
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+fieldset {
+    position: relative;
+    width: 49%;
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 5px;
+}
+fieldset article {
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+}
+img {
+    height:90%;
+    height: 5.25rem;
+    float: left;
+    clear: left;
+}
+
+.left-article p {
+    position: absolute;
+    bottom: 5px;
+    left: 10%;
+}
+label {
+    display: inline-block;
+    width: 90%;
+    text-align: justify;
+}
+a {
+    color: #05b0ef;
+    vertical-align: top;
+}
+p {
+    margin-bottom: 0px;
+}
+legend {
+    text-align: center;
+}
