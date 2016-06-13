@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Digit as word</title>
+	<style>
+		div {
+			width: 150px;
+			height:30px;
+			color: white;
+			background-color:grey;
+			font-size: 25px;
+			font-weight: bold;
+			vertical-align: middle;
+		}
+		input {
+			width: 100px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}		
+	</style>	
+	<script src="DigitAsWord.js"></script>
+</head>
+<body>
+	<p>Type a digit (0-9) and click the text:</p>
+	<label for="entryDigit">Digit: </label>
+	<input type="number" id="entryDigit" placeholder="Type a digit"/>
+	<a href="#" onclick="nChange()">The English word for the digit is:</a>
+	<div id="answer"></div>
+
+</body>
+</html>

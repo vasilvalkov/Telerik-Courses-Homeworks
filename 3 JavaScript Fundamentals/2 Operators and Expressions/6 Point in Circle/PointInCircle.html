@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Point in circle</title>
+	<style>
+		div {
+			width: 404px;
+			height:50px;
+			color: white;
+			background-color:grey;
+			font-size: 20px;
+		}
+		input {
+			width: 200px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}
+		sup {
+		font-size: 10px;
+		}
+	</style>	
+	<script src="PointInCircle.js"></script>
+</head>
+<body>
+	<p>Type x and y coordinates and press Enter to see if the point is inside the circle with radius 5 and centre (0, 0):</p>
+	<label for="entryX">X coordinate: </label>
+	<input type="number" id="entryX" placeholder="Type X" onchange="nChange()"/>
+	<label for="entryY">Y coordinate: </label>
+	<input type="number" id="entryY" placeholder="Type Y" onchange="nChange()"/>
+	<div id="answer"></div>
+
+</body>
+</html>

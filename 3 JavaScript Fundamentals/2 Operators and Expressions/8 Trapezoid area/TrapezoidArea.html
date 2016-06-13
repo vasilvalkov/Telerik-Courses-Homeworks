@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Trapezoid area</title>
+	<style>
+		div {
+			width: 404px;
+			height:25px;
+			color: white;
+			background-color:grey;
+			font-size: 20px;
+		}
+		input {
+			width: 200px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}
+		sup {
+		font-size: 10px;
+		}
+	</style>	
+	<script src="TrapezoidArea.js"></script>
+</head>
+<body>
+	<p>Type the width of a, b and h and press Enter to see what is the trapezoid's area:</p>
+	<label for="entryAside">a side: </label>
+	<input type="number" id="entryAside" placeholder="Type a side" onchange="nChange()"/>
+	<label for="entryBside">b side: </label>
+	<input type="number" id="entryBside" placeholder="Type b side" onchange="nChange()"/>
+	<label for="entryHeight">Height: </label>
+	<input type="number" id="entryHeight" placeholder="Type height" onchange="nChange()"/>
+	<div id="answer"></div>
+
+</body>
+</html>

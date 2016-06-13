@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Point in circle and outside rectangle</title>
+	<style>
+		div {
+			width: 504px;
+			height:50px;
+			color: white;
+			background-color:grey;
+			font-size: 20px;
+		}
+		input {
+			width: 200px;
+			display: block;
+		}
+		p {
+		width: 200px;
+		}
+		sup {
+		font-size: 10px;
+		}
+	</style>	
+	<script src="PointInCircleOutsideRect.js"></script>
+</head>
+<body>
+	<p>Type x and y coordinates and press Enter to see if the point P(x, y) is within the circle K((1,1), 3) and outside of the rectangle R(top=1, left=-1, width=6, height=2):</p>
+	<label for="entryX">X coordinate: </label>
+	<input type="number" id="entryX" placeholder="Type X" onchange="nChange()"/>
+	<label for="entryY">Y coordinate: </label>
+	<input type="number" id="entryY" placeholder="Type Y" onchange="nChange()"/>
+	<div id="answer"></div>
+
+</body>
+</html>
