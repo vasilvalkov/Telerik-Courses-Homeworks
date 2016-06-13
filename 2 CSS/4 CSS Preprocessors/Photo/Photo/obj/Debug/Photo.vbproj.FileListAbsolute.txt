@@ -1,0 +1,9 @@
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\bin\Photo.dll.config
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\bin\Photo.dll
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\bin\Photo.pdb
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\bin\Photo.xml
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\obj\Debug\Photo.Resources.resources
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\obj\Debug\Photo.vbproj.GenerateResource.Cache
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\obj\Debug\Photo.dll
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\obj\Debug\Photo.xml
+D:\Telerik Academy\2 CSS\4 CSS Preprocessors\Photo\Photo\obj\Debug\Photo.pdb

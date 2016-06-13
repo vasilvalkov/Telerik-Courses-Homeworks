@@ -1,0 +1,23 @@
+﻿ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+li {
+    text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#main-list li ul {    
+    display: none;
+    color: grey;
+}
+#main-list li:hover>ul{
+    display: block;
+}
+ul>:hover>a{
+    text-decoration: underline;
+}

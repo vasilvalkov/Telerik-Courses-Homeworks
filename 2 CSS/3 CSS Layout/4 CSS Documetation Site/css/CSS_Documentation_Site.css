@@ -1,0 +1,141 @@
+﻿html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+aside, main {
+    box-sizing: border-box;
+}
+#left {
+    width: 15%;
+    float: left;
+}
+#left header {
+    display: inline-block;
+    position: relative;
+}
+#left img {
+    float: left;
+}
+#left section:first-of-type h4 {
+    margin-top: 0;
+}
+#left h2 {
+    font-size: 14px;
+    text-transform:uppercase;
+    margin: 0 5px 5px 5px;
+    padding: 0;
+    float: left;
+    vertical-align: text-bottom;
+    width: 50%;
+    color: initial;
+    background-color:inherit;
+    font-weight: bold;
+}
+#left a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    width: 69%;
+    padding: 5px;
+    float: left;
+    background-color: white;
+    border: 1px solid grey;
+}
+main header {
+    border-bottom: 3px solid grey;
+}
+main img {
+    margin-right: 15px;
+    float: left;
+    clear: left;
+}
+main input {
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+}
+main article:first-of-type {
+    font-weight: bold;
+}
+.clearfix {
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+#right {
+    width: 15%;
+    float: right;
+    margin: 0;
+}
+#right article {
+    border: 1px solid grey;
+    text-align:center;
+    padding: 5px 0 5px 0;
+    background-color: white;
+    margin: 0 2px 2px 2px;
+}
+#right a, main a {
+    color: #900f0e;
+}
+#right input[type=text] {
+    width: 60%;
+    height: 15px;
+    border: 1px solid #0094ff;
+}
+#right input[type=submit] {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid #416c95;
+    font-weight: bold;
+}#right input[type=submit]::after {
+    content: "...";
+    font-weight: bold;
+    text-align: center;
+}
+footer {
+    margin: 10px 0;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+aside p {
+    margin: 0;
+}
+h1 {
+    margin: 10px 0;
+}
+h2 {
+    background-color: grey;
+    color: ghostwhite;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 1.2em;
+
+}
+h3 {
+    background-color: grey;
+    color: ghostwhite;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 1.2em;
+    width: 97%;
+    text-transform:uppercase;
+    margin: -5px 0 5px 0;
+}
+h4 {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #900f0e;
+    font-weight: bold;
+}
